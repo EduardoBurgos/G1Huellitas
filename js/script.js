@@ -59,7 +59,7 @@ const validarFormulario = (event) => {
         validation = false;
     }
     if (lastname.value.trim() === "") {
-        document.querySelector("#error-lastname").textContent = "Debe completar el campo apellido";
+        document.querySelector("#error-lastname").textContent = "Debe completar el campo Apellido";
         lastname.classList.add("error");
         validation = false;
     }
